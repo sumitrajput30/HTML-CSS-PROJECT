@@ -1,0 +1,806 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: lightgray;
+   
+}
+#click{
+    display: none;
+}
+/* navbar */
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+    background-color: white;
+    height: 80px;
+    
+    
+    
+    .logo{
+       
+            background-color: white;
+      
+        img{
+            width: 200px;
+           
+            background-color: white;
+           
+
+        }
+
+    }
+    
+    
+    ul{
+        display: flex;
+        gap: 50px;
+        background-color: white;
+        li{
+           list-style: none;
+           background-color: white;
+
+           a{
+            text-decoration: none;
+            color: #333333;
+            font-size: 20px;
+            background-color: white;
+           }
+            i{
+                background-color: white;
+                color: #333333;
+                font-size: 25px;
+            }
+        }
+    }
+    label{
+        display: none;
+    }
+
+}
+
+/* hero section */
+
+.hero{
+    /* margin-left: 70px; */
+    /* margin-bottom: 60px; */
+    
+    img{
+        width: 100%;
+    }
+
+}
+
+/* Goals and Progress */
+
+.goals{
+    
+    
+
+
+    .heading{
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 30px;
+        color: #000000;
+
+    }
+    .container{
+        display: flex;
+        margin-left: 80px;
+       
+        
+        
+        
+    }
+    .container_1{
+        margin-left: 40px;
+        height: 700px;
+        width: 550px;
+        background-color: white;
+        border-radius: 5%;
+        
+
+
+        img{
+            height: 305px;
+            width: 550px;
+            border-radius: 5%;
+           
+        }
+        h3{
+            font-size: 28px;
+            padding-top: 35px;
+            padding-left: 80px;
+            background-color: white;
+        }
+        p{
+            font-size: 20px;
+            background-color: white;
+            padding-top:25px ;
+            padding-left: 80px;
+            line-height: 25px;
+
+        }
+        .button{
+            color: #000000;
+
+            p{
+                color: #000000;
+                font-size: 25px;
+                padding-top: 40px;
+                padding-right: 20px;
+                
+            span{
+                background-color: white;
+             i{
+                padding-left: 15px;
+                background-color: white;
+               
+             }
+            }
+            }
+        }
+    }
+}
+
+/* feature news  */
+
+.Feature{
+    margin-top: 120px;
+    
+    .heading{
+        font-size:30px ;
+        color: #000000;
+        text-align: center;
+        margin-bottom: 50px;
+
+    }
+    .container_1{
+        display: flex;
+        margin-left: 50px;
+        /* height: 650px; */
+        border-radius: 20px;
+        
+        
+        .feature_container{
+            margin-left: 40px;
+            background-color: white;
+            border-radius: 20px;
+
+            img{
+                height: 280px;
+                width: 400px;
+                border-radius: 20px;
+               
+            }
+            h3{
+                color: #000000;
+                font-size: 22px;
+                font-weight: 550;
+                padding-top: 30px;
+                background-color: white;
+                padding-left: 40px;
+                
+            }
+            p{
+                padding-left: 40px;
+                background-color: white;
+                padding-top: 20px;
+                font-size: 20px;
+                font-weight: 400;
+                
+             
+            }
+            .button{
+                p{
+                    color: #000000;
+                    background-color: white;
+                    font-size: 20px;
+
+                    span{
+                        padding-left: 10px;
+                        background-color: white;
+                        
+                        i{
+                            background-color: white;
+                        }
+                    }
+                }
+                .p{
+                    padding-top: 35px;
+                    background-color: white;
+                }
+            }
+        }
+    }
+
+
+
+    /* job */
+    .job{
+        margin-left: 30px;
+        margin-top: 150px;
+
+        .container{
+            display: flex;
+
+       .container_2{
+        height: 560px;
+        background-color: white;
+        /* width: 670px; */
+        padding: 70px 90px;
+        border-radius: 30px;
+        position: relative;
+        left: 40px;
+       
+        h2{
+            font-size: 30px;
+            font-weight: 550;
+           padding-bottom: 20px;
+           background-color: white;
+        }
+        p{
+            font-size: 25px;
+            line-height: 25px;
+            font-weight: 400;
+            background-color: white;
+        }
+        .button{
+            text-align: center;
+            align-items: center;
+            background-color: white;
+            padding-top: 150px;
+           
+            button{
+                height: 40px;
+                width: 330px;
+                border-radius: 30px;
+                font-size: 20px;
+                background-color: white;
+            }
+           }
+
+        
+       }
+     .Company_job{
+        margin-top: 120px;
+        margin-bottom: 100px;
+
+
+        img{
+            height: 560px;
+            width: 670px;
+            border-radius: 30px;
+       }
+    }
+    
+    }
+
+
+
+    .container{
+        display: flex;
+
+    .container_3{
+        /* height: 560px; */
+        background-color: white;
+        /* width: 670px; */
+        padding: 70px 90px;
+        border-radius: 30px;
+        position: relative;
+        right: 100px;
+        margin-top: 30px;
+
+       
+        h2{
+            font-size: 30px;
+            font-weight: 550;
+           padding-bottom: 20px;
+           background-color: white;
+        }
+        p{
+            font-size: 25px;
+            line-height: 25px;
+            font-weight: 400;
+            background-color: white;
+        }
+        .p{
+            p{
+                padding-top: 40px;
+            }
+        }
+        .button{
+            text-align: center;
+            align-items: center;
+            background-color: white;
+            padding-top: 60px;
+           
+            button{
+                height: 40px;
+                width: 330px;
+                border-radius: 30px;
+                font-size: 20px;
+                background-color: white;
+            }
+        
+        }
+           }
+
+    .Company_jobs{
+        margin-top: 120px;
+        margin-bottom: 100px;
+        margin-left: 50px;
+
+
+        img{
+            height: 560px;
+            width: 670px;
+            border-radius: 30px;
+       }
+    }
+
+
+}
+
+}  
+}
+
+
+/* Brands */
+
+.Brands{
+  
+
+    .heading{
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 30px;
+
+    }
+    .brand_1{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 20px 300px;
+
+        
+    }
+    img{
+        height: 250px;
+        width: 250px;
+        background-color: white;
+        border-radius: 15px;
+        padding: 40px;
+        margin: 20px 20px;
+       }
+
+       .button{
+        text-align: center;
+        align-items: center;
+       
+        button{
+            height: 40px;
+            width: 330px;
+            border-radius: 30px;
+            font-size: 20px;
+        }
+       }
+}
+
+
+
+/* footer */
+.footer{
+    margin-top: 120px;
+    background-color: #000000;
+
+    .logo{
+        display: flex;
+        padding-top: 80px;
+        
+         background-color: #000000;
+         img{
+            background-color: #000000;
+            padding-right: 600px;
+            padding-left: 100px;
+            height: 50px;
+         }
+         .button{
+            text-align: center;
+            align-items: center;
+            background-color: #000000;
+           
+            button{
+                height: 40px;
+                width: 250px;
+                border-radius: 30px;
+                font-size: 20px;
+                color: #ffffffff;
+                background-color: #000000;
+               
+                i{
+                    padding-right: 10px;
+                    background-color: #000000;
+                    color: white;
+                }
+            }
+           }
+
+    }
+    .footer_1{
+   display: flex;
+   
+   color: white;
+   background-color: #000000;
+
+   .section{
+
+    padding-left: 100px;
+    background-color: #000000;
+    padding-top: 60px;
+
+    h4{
+        background-color: #000000;
+        font-size: 22px;
+        color: #D5D5D5;
+    }
+    ul{
+        line-height: 28px;
+        background-color: #000000;
+        list-style: none;
+
+        li{
+            background-color: #000000;
+            font-size: 18px;
+
+        }
+       
+    }
+
+   }
+   .social_media{
+    background-color: #000000;
+    padding-top: 60px;
+    padding-left: 400px;
+    font-size: 30px;
+    border-radius: 50%;
+   }
+   i{
+   padding-left: 10px;
+   border-radius: 50%;
+   background-color: #000000;
+   }
+   
+}
+.copyright{
+    padding: 96px 0;
+    align-items: end;
+    text-align: right;
+    padding-right: 60px;
+    color: white;
+    background-color: #000000;
+}
+
+}
+
+@media (max-width:768px){
+    .navbar{
+label{
+    display: block;
+}
+    }
+
+.navbar {
+    ul {
+        display: flex;
+        gap: 2px;
+        background-color: white;
+        flex-direction: column;
+        position: absolute;
+        top: 90px;
+        right: 80px;
+        display: none;
+    }
+}
+#click:checked ~ .navbar {
+ul{
+    display: block;
+}
+}
+.goals {
+    .container {
+        flex-direction: column;
+    
+}
+}
+.Feature {
+    .container_1 {
+        display: flex;
+        /* margin-left: 50px; */
+        /* height: 650px; */
+        border-radius: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+    .footer_1 {
+        display: flex;
+        color: white;
+        background-color: #000000;
+        align-items: center;
+        flex-direction: column;
+    }
+    .logo {
+        display: flex;
+        /* padding-top: 80px; */
+        background-color: #000000;
+        flex-direction: column;
+    }
+    .social_media {
+        background-color: #000000;
+        padding-top: 60px;
+        /* padding-left: 400px; */
+        font-size: 30px;
+        border-radius: 50%;
+        
+    }
+    
+   .container {
+                display: flex;
+                flex-direction: column;
+    }
+
+    
+                .container_3 {
+                    /* height: 560px; */
+                    background-color: white;
+                    /* width: 670px; */
+                    padding: 70px 90px;
+                    border-radius: 30px;
+                    /* position: relative; */
+                    /* right: 100px; */
+                    margin-top: 30px;
+                
+    }
+    .container_2 {
+        /* height: 560px; */
+        background-color: white;
+        width: 670px;
+        padding: 70px 90px;
+        border-radius: 30px;
+        position: relative;
+        /* left: 40px; */
+    }
+
+    .hero {
+        /* margin-left: 70px; */
+        /* margin-bottom: 60px; */
+    }
+    .Brands {
+    .brand_1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 20px 250px;
+    }
+}
+.Feature {
+    & .job {
+        & .container {
+            .container_3 {
+                /* height: 560px; */
+                background-color: white;
+                width: 100%;
+                padding: 70px 90px;
+                border-radius: 30px;
+                /* position: relative; */
+                right: 100px;
+                margin-top: 30px;
+                display: none;
+                /* left: 30px; */
+            }
+        }
+    }
+}
+
+
+            
+
+}
+@media (max-width :426px) {
+    
+        .container_1 {
+            margin-left: 0px;
+            height: 700px;
+            width: 550px;
+            background-color: white;
+            border-radius: 5%;
+        }
+        .goals {
+            .container {
+                flex-direction: column;
+                margin-left: 0px;
+            }
+        }
+        .goals {
+            .container_1 {
+                margin-left: 0px;
+                /* height: 700px; */
+                width: 100%;
+                background-color: white;
+                border-radius: 5%;
+            }
+        }
+        .goals {
+            & .container_1 {
+                img {
+                    height: 305px;
+                    width: 100%;
+                    border-radius: 5%;
+                }
+            }
+        }
+        .Feature {
+            .container_1 {
+                display: flex;
+                margin-left: 0px;
+                width: 100%;
+                /* height: 650px; */
+                border-radius: 20px;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+        .Feature {
+            & .job {
+                & .container {
+                    .container_2 {
+                        height: 560px;
+                        background-color: white;
+                        width: 100%;
+                        padding: 70px 90px;
+                        border-radius: 30px;
+                        position: relative;
+                        left: 0px;
+                    }
+                }
+            }
+        }
+        .Feature {
+            & .container_1 {
+                & .feature_container {
+                    img {
+                        height: 280px;
+                        width: 100%;
+                        border-radius: 20px;
+                        /* position: absolute; */
+                    }
+                }
+            }
+        }
+        .footer {
+            & .logo {
+                img {
+                    background-color: #000000;
+                    padding-right: 0px;
+                    padding-left: 0px;
+                    height: 50px;
+                }
+            }
+        }
+        .footer {
+            & .footer_1 {
+                .social_media {
+                    background-color: #000000;
+                    padding-top: 60px;
+                    /* padding-left: 400px; */
+                    font-size: 30px;
+                    border-radius: 50%;
+                }
+            }
+        }
+        .Feature {
+            & .job {
+                & .container {
+                    & .Company_job {
+                        img {
+                            height: 560px;
+                            width: 100%;
+                            border-radius: 30px;
+                            position: relative;
+                            top: 200px;
+                            left: 0px;
+                        }
+                    }
+                }
+            }
+        }
+        .Feature {
+            .job {
+                margin-left: 0px;
+                margin-top: 150px;
+            }
+        }
+        .Feature {
+            & .job {
+                & .container {
+                    .Company_jobs {
+                        margin-top: 120px;
+                        margin-bottom: 20px;
+                        margin-left: 0px;
+                    }
+                }
+            }
+        }
+        .Feature {
+            & .job {
+                & .container {
+                    & .Company_jobs {
+                        img {
+                            /* height: 560px; */
+                            width: 100%;
+                            border-radius: 30px;
+                        }
+                    }
+                }
+            }
+        }
+        .Feature {
+            & .job {
+                & .container {
+                    .container_3 {
+                        /* height: 560px; */
+                        background-color: white;
+                        /* width: 670px; */
+                        padding: 70px 90px;
+                        border-radius: 30px;
+                        position: relative;
+                        right: 100px;
+                        margin-top: 30px;
+                        left: 30px;
+                    }
+                }
+            }
+        }
+        .Brands {
+            .brand_1 {
+                display: flex;
+                /* grid-template-columns: 1fr; */
+
+                margin: 0px 0px; 
+                flex-direction: column;
+                width: 100%;
+                align-items: center;
+            }
+        }
+        .Feature {
+            & .container_1 {
+                .feature_container {
+                    position: relative;
+                    margin-left: 0px;
+                    background-color: white;
+                    border-radius: 20px;
+                }
+            }
+        }
+        .footer {
+            & .footer_1 {
+                .social_media {
+                    background-color: #000000;
+                    padding-top: 60px;
+                    /* padding-left: 400px; */
+                    font-size: 30px;
+                    border-radius: 50%;
+                    display: contents;
+                    margin-top: 40px;
+                }
+            }
+        }
+    }
+    
+    
+
+
+
