@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+      
+      .container {
+            max-width: 800px;
+            width: 100%;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            margin-top: 0;
+            font-size: 24px;
+            color: #333;
+        }
+        form {
+            display: grid;
+            gap: 15px;
+        }
+        .form-group {
+            display: flex;
+            flex-direction: column;
+        }
+        .form-group label {
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .form-group input, .form-group select {
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .form-group input[type="checkbox"] {
+            width: auto;
+            margin-right: 10px;
+        }
+        .payment-method {
+            margin-bottom: 20px;
+        }
+        .payment-method input[type="radio"] {
+            margin-right: 10px;
+        }
+        .cart-totals {
+            border-top: 1px solid #ddd;
+            padding-top: 15px;
+        }
+        .total-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            font-size: 18px;
+            color: #555;
+        }
+        .total-item:last-child {
+            margin-bottom: 0;
+            font-weight: bold;
+            color: #000;
+        }
+        .checkout-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 18px;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+        }
+        .checkout-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <input type="checkbox"  id="click">
+  <header class="hero">
+    <nav>
+     <div class="navbar">
+      <h1>LIQUIOR STORE</h1>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="product.html">PRODUCT</a></li>
+        <li><a href="blog.html">BLOG</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+        <!-- <li><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li> -->
+        <!-- <li><a href="login.html"><i class="fa-solid fa-user"></i></a></li> -->
+
+      </ul>
+      <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+      <a href="login.html"><i class="fa-solid fa-user"></i></a>
+      <label for="click"><i class="fa-solid fa-bars"></i></label>
+    </div>
+        <div class="hero-section">
+
+
+          <div class="hero-section-containar">
+            <div class="cart">
+              <ul>
+                <li><a href="index.html">HOME  <i class="fa-solid fa-angle-right"></i></a></li>
+                <li><a href="index.html">CART  <i class="fa-solid fa-angle-right"></i></a></li>
+              </ul>
+            </div>
+
+          <h1>checkout</h1>
+          
+        </div>
+        </div>
+        </nav>
+       </header>
+
+
+       
+
+
+
+
+        <div class="container"></div>
+        <h2>Billing Details</h2>
+        <form>
+            <!-- Billing Information -->
+            <div class="form-group">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first_name" required>
+            </div>
+            <div class="form-group">
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last_name" required>
+            </div>
+            <div class="form-group">
+                <label for="country">State / Country</label>
+                <select id="country" name="country" required>
+                    <option value="india">India</option>
+                    <!-- Add other countries as needed -->
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="street-address">Street Address</label>
+                <input type="text" id="street-address" name="street_address" required>
+            </div>
+            <div class="form-group">
+                <label for="appartment">Apartment, Suite, Unit etc: (optional)</label>
+                <input type="text" id="appartment" name="appartment">
+            </div>
+            <div class="form-group">
+                <label for="city">Town / City</label>
+                <input type="text" id="city" name="city" required>
+            </div>
+            <div class="form-group">
+                <label for="postcode">Postcode / ZIP *</label>
+                <input type="text" id="postcode" name="postcode" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label>
+                    <input type="checkbox" id="create-account" name="create_account">
+                    Create an Account?
+                </label>
+            </div>
+            <div class="form-group">
+                <label>
+                    <input type="checkbox" id="ship-different-address" name="ship_different_address">
+                    Ship to different address
+                </label>
+            </div>
+            
+            <!-- Cart Totals -->
+            <div class="cart-totals">
+                <h2>Cart Total</h2>
+                <div class="total-item">
+                    <span>Subtotal</span>
+                    <span>$20.60</span>
+                </div>
+                <div class="total-item">
+                    <span>Delivery</span>
+                    <span>$0.00</span>
+                </div>
+                <div class="total-item">
+                    <span>Discount</span>
+                    <span>-$3.00</span>
+                </div>
+                <div class="total-item">
+                    <span>Total</span>
+                    <span>$17.60</span>
+                </div>
+            </div>
+
+            <!-- Payment Method -->
+            <div class="payment-method">
+                <h2>Payment Method</h2>
+                <label>
+                    <input type="radio" name="payment_method" value="bank_transfer">
+                    Direct Bank Transfer
+                </label><br>
+                <label>
+                    <input type="radio" name="payment_method" value="check_payment">
+                    Check Payment
+                </label><br>
+                <label>
+                    <input type="radio" name="payment_method" value="paypal">
+                    PayPal
+                </label>
+            </div>
+
+            <!-- Terms and Conditions -->
+            <div class="form-group">
+                <label>
+                    <input type="checkbox" id="terms" name="terms" required>
+                    I have read and accept the <a href="#">terms and conditions</a>
+                </label>
+            </div>
+
+            <!-- Submit Button -->
+            <a href="tracking.html" class="checkout-btn">Proceed to Checkout</a>
+        </form>
+    </div>
+
+
+
+
+
+          <!-- Footer -->
+
+     <div class="footer">
+        
+        <div class="footer1">
+          <h2>Liquor Store</h2>
+          <p>Far far away, behind <br> the word mountains, <br> far from the countries.</p>
+          <ul>
+            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-facebook"></i></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram "></i></a></li>
+          </ul>
+        </div>
+        <div class="footer1">
+          <h2>My Accounts</h2>
+          <ul>
+            <li><a href="">My Account
+              </a></li>
+
+              <li><a href="">
+                Register
+                </a></li>
+
+                <li><a href="">
+                 
+                  Log In
+                  </a></li>
+
+                  <li><a href="">My Order</a></li>
+              
+          </ul>
+        </div>
+
+        <div class="footer1">
+          <h2>Information</h2>
+          <ul>
+            <li><a href="">About us
+           </a></li>
+              <li><a href="">
+                Catalog
+                </a></li>
+
+                <li><a href="">
+                  Contact us
+                  </a></li>
+
+                  <li><a href="">
+                    Term & Conditions</a></li>
+              
+              
+
+          </ul>
+        </div>
+
+<div class="footer1 footer3">
+          <h2>Quick Link
+          </h2>
+          <ul>
+            <li><a href="">New User</a></li>
+            <li><a href="">Help Center</a></li>
+            <li><a href="">Report Spam</a></li>
+            <li><a href="">Faq's
+            </a></li>
+          </ul>
+        </div>
+
+        <div class="footer1 footer3">
+          <h2>Have a Questions?</h2>
+          <ul>
+            <li><a href="">	203 Fake St. Mountain <br> View, San Francisco, <br> California, USA</a></li>
+            <li><a href="">	+2 392 3929 210</a></li>
+            <li><a href="">	info@yourdomain.com</a></li>
+          </ul>
+        </div>
+
+
+      </div>
+
+      <div class="footer2"><p>Copyright ©2024 All rights reserved | This template is made with  by Colorlib.com</p></div>
+
+</body>
+</html>
