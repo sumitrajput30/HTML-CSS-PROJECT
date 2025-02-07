@@ -102,7 +102,7 @@
 .home {
     width: 100%;
     min-height: 100vh;
-    background-image: url("/img/Haldiram_Wedding_Banner_New-02.webp");
+    background-image: url("img/Haldiram_Wedding_Banner_New-02.webp");
     background-size: cover;
 }
 
