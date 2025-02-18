@@ -1,0 +1,569 @@
+/* Global Styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Top Notification Bar */
+.bar {
+    width: 100%;
+    min-height: 50px;
+    background-color: rgb(250, 196, 75);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bar marquee {
+    width: 80%;
+    font-size: small;
+}
+
+.bar button {
+    border-radius: 50px;
+    background-color: rgb(247, 7, 7);
+    padding: 5px;
+    margin: 2px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.bar button i {
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+}
+
+/* Header Section */
+#top {
+    width: 100%;
+    height: 12vh;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+#top form {
+    display: flex;
+    align-items: center;
+}
+
+#top form input {
+    font-size: 20px;
+    padding: 8px 10px;
+    /* margin-right: 10px; */
+    /* border-radius: 30px; */
+}
+
+#top form button {
+    background-color: orangered;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+    /* border-radius: 30px; */
+}
+
+#top img {
+    height: 100%;
+    padding: 2px;
+    justify-content: center;
+  
+
+}
+
+.s i {
+    font-size: 35px;
+    padding: 5px;
+}
+
+/* Navigation */
+.nav {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: large;
+    background-color: rgb(250, 196, 75);
+    margin-bottom: 20px;
+}
+
+.nav p {
+    font-size: 25px;
+}
+
+/* Home Section */
+.home {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("img/Haldiram_Wedding_Banner_New-02.webp");
+    background-size: cover;
+}
+
+/* Images Section */
+.images {
+    width: 100%;
+    text-align: center;
+
+    i{
+    color: red;
+    }
+}
+
+.images h1 {
+    font-size: 50px;
+    margin: 20px 0;
+}
+
+.images .imgdiv {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.images .imgdiv img {
+    height: 250px;
+    width: 250px;
+    margin: 20px;
+}
+
+.images .imgdiv p {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.images button {
+    background-color: red;
+    width: 200px;
+    height: 35px;
+    font-size: 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+
+.pic{
+  justify-content: space-evenly;
+  display: flex;
+ 
+
+ img{
+ height: 320px;
+ width: 100%;
+ }
+}
+.img1{
+justify-content: space-evenly;
+margin-left: 70px;
+
+ img{
+height: 400px;
+width: 1415px;
+}
+}
+
+
+/* Discover Categories */
+
+
+
+
+
+.image {
+    width: 100%;
+    text-align: center;
+
+    i{
+    color: red;
+    }
+}
+
+.image h1 {
+    font-size: 50px;
+    margin: 20px 0;
+}
+
+.image .imgdi {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.image .imgdi img {
+    height: 300px;
+    width: 400px;
+    margin: 20px;
+}
+
+.image .imgdi p {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+
+/* .discover{
+    
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+    
+
+    h1{
+        padding-left: 40%;
+       
+    }
+
+}
+
+.dis{
+    display: flex;
+    padding-left: 100px;
+    margin-bottom: 80px;
+    margin-top: 40px;
+   
+
+    img{
+        height: 400px;
+        width: 400px;
+        gap: 80px;
+        margin-left: 40px;
+        
+    }
+    .d{
+        h3{
+           padding-left: 150px;
+           padding-top: 20px;
+           font-size: 25px;
+        }
+
+    }
+} */
+
+
+/* About Us */
+
+.about_us{
+
+  display: flex;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+
+.about{
+    padding-left: 70px;
+  h1{
+    font-size: 25px;
+    /* padding-left: 25px;
+    margin-left: 25px; */
+    padding-bottom: 35px;
+  }
+  p{
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  button {
+    background-color: red;
+    width: 200px;
+    height: 35px;
+    font-size: 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 30px;
+}
+}
+
+.v{
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+/* contact section */
+.contact{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(250, 187, 71);
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+
+   
+}
+.c{
+    padding-right: 70px;
+    /* margin: 40px; */
+    margin-right: 10px;
+}
+ .b{
+    /* padding-top: 30px; */
+
+    
+    input{
+        /* font-size: 20px; */
+        padding: 10px;
+        width: 300px;
+
+        
+    }
+    button{
+        /* font-size: 30px; */
+        background-color: rgb(230, 68, 68);
+        margin-top: 20px;
+        padding: 9px;
+      
+    }
+ }
+
+/* Footer */
+footer {
+    background-color: #f4f4f4;
+    padding: 40px 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* max-width: 1200px; */
+    /* margin: 0 auto; */
+    margin-left: 40px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+    padding: 20px;
+    line-height: 22px;
+
+    h1{
+        font-size: 22px;
+        
+    }
+}
+
+.s2{
+    margin-top: 25px;
+}
+
+.footer-section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color:black;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section ul li a {
+    color: #666;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-section ul li a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+/* Social Media Links */
+.social-links {
+    /* display: fle ; */
+    justify-content: center;
+    gap: 15px;
+    margin-left: 40px;
+    padding-left: 20px;
+}
+
+.social-links li {
+    list-style: none;
+    font-family: 18px;
+   
+    
+    i{
+        
+       padding-right: 8px;
+        color: red;
+        font-size: 30px;
+        padding-top: 10px;
+        margin-top: 10px;
+    }
+}
+
+.social-links li a {
+    color: #666;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.social-links li a:hover {
+    color: #000;
+}
+
+/* Payment Secured Section */
+.footer-security {
+    text-align: center;
+    margin-top: 40px;
+    color:#000;
+    font-size: 14px;
+
+    img{
+        padding-top: 20px;
+    }
+}
+.l{
+    align-items: center;
+    justify-content: center;
+    margin-left:28%;
+}
+
+/* Responsive Design */
+/* @media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        margin-bottom: 20px;
+    }
+} */
+
+
+
+
+/* Media Queries */
+
+/* Tablets (max-width: 768px) */
+@media (max-width: 768px) {
+    #top {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+        
+
+    }
+
+    .nav {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        display: none;
+    }
+
+    .home {
+        min-height: 50vh;
+    }
+
+    .images h1 {
+        font-size: 35px;
+    }
+
+    .images .imgdiv img {
+        height: 200px;
+        width: 200px;
+    }
+
+    .image .imgdi img {
+        height: 300px;
+        width: 300px;
+    }
+
+
+   /* .discover .dis .d img {
+        height: 200px;
+        width: 200px;
+        grid-column: 1fr 1fr;
+        margin: 0px;
+    } */
+
+    .about_us {
+        flex-direction: column;
+        text-align: center;
+    }
+    /* .about_us .about .v 
+    {
+        width: 300px;
+        height: 300px;
+    } */
+
+    .contact {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+    }
+}
+
+/* Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+    .bar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .bar marquee {
+        width: 100%;
+    }
+
+    .nav {
+        flex-direction: column;
+    }
+
+    .home {
+        min-height: 30vh;
+    }
+
+    .images h1 {
+        font-size: 30px;
+    }
+
+    .images .imgdiv img {
+        height: 150px;
+        width: 150px;
+    }
+
+    .dis img {
+        height: 250px;
+        width: 250px;
+    }
+
+    .about_us {
+        text-align: center;
+    }
+
+      .about_us  .v 
+    {
+        width: 300px;
+        height: 300px;
+    } 
+
+    .contact {
+        text-align: center;
+    }
+
+    .footer-container {
+        text-align: center;
+    }
+}
